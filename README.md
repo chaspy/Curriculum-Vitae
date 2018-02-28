@@ -7,9 +7,15 @@
 |Name|takeshe12|
 |Blog|[ツナワタリマイライフ](http://take-she12.hatenablog.com/)|
 |Twitter|[@take_she12](https://twitter.com/take_she12)|
-|Speakerdeck|[takeshe12](https://speakerdeck.com/takeshe12)|
+|Speakerdeck|[tk117](https://speakerdeck.com/tk117)|
+|Qiita|[tk117](https://qiita.com/tk117)|
 
 ## スキル
+* オンプレミスクラウド導入経験およびインフラ知識
+* パブリッククラウド(OpenStack)開発/運用/保守経験、アーキテクチャの知識
+* インフラのコード化・自動化
+* CI/CDを実現するOSSの知識および導入経験
+* チームビルディング
 
 ### 言語
 
@@ -19,8 +25,36 @@
   - Go
   - shell
 
+- 仮想化/クラウド
+
+  - OpenStack
+  - VMware
+  - KVM
+
+- Infrastructure as code
+
+  - ansible
+  - docker
+
+
+  - capistrano
+  - terraform
+  - serverspec
+
+- CI/CD
+
+  - gitlab-ci
+  - circleci
+  - jenkins
+
+- チーム開発推進
+
+  - カンバン
+  - chatops
+
 - 日本語
   - ネイティブ
+
 - 英語
   - 検索結果を調べながら読むことができる
   - gitのREADMEをかける
@@ -33,40 +67,24 @@
 |ネットワークスペシャリスト|2014-12|
 
 ## 強み
+### CI/CDおよびInfrastracture as Codeの導入
+  CI/CDおよびInfrastracture as Codeの分野に積極的に取り組んできました。未導入のチームに対し、プロトタイプ検証、概要と効果の説明、実装、以降後のメンバーフォローまでのプロセスを多数経験してきたため、新技術および改善の導入をリードすることができます。
 
-- OSS導入/活用推進
-  - phpipam(IPアドレス管理)
-  - knowledge(ノウハウ共有)
-  - Gitlab(ソースコード管理システム)
-  - mattermost(slack互換のチャット)
-  - redmine(チケット管理システム)
-  - hubot(bot基盤)
-  - minio(S3互換オブジェクトストレージ)
-- 構築自動化による属人化の排除
-  - ansible
-  - docker
-- インフラのコード化およびテスト
-  - ansible
-  - capistrano
-  - terraform
-  - serverspec
-- CI/CDプロセスの導入
-  - gitlab-ci
-  - circleci
-  - jenkins
-- パブリック/プライベートクラウドの運用経験
-  - OpenStack
-  - VMware
-  - KVM
-- チーム開発推進
-  - カンバン
-  - chatops
+### OpenStackによるクラウド構築・開発・運用経験
+  プライベート(オンプレミス)/パブリッククラウドのIaaSを長く担当してきたため、インフラレイヤーとソフトウェアレイヤーの両方に関する技術・知識を持っています。Infrastructure as Codeの実践、もしくはアプリケーションに最適なインフラの設計・構築・保守を行うことができます。
+
+### チームへの継続的改善
+  チームでの生産性を最大化することに強い関心があります。チームでのコミュニケーション潤滑化、および問題の早期解決のためmattermost(slackのようなチャットツール)を導入、インターン生サポートのための試験導入を経てチームにも導入。メール文化の組織から、内部の連絡や課題解決はチャットで行われるようになりました。
+
+### 継続的な技術アウトプット
+   チームビルディングに関連し、属人化の排除のためのアウトプットを習慣化しています。個人学習はブログへ、社内で得た知見はqiitaへ、業務情報は全てgitlabおよびredmineのwikiにアウトプットをしています。
 
 ## やったことはないが興味があるもの
 * SRE(Site Reliability Engineering)
 * パブリッククラウドでのシステム構築・導入・運用
 * モニタリングと可視化
 * データベースパフォーマンスチューニング
+* 組織改善
 
 ## 職務経歴
 
@@ -88,13 +106,16 @@
 
 #### 開発工程へのCI/CDプロセス導入
 
-* リーダーを担当
+* リーダーを担当(4人チーム)
 * デリバリ(リリース)方式をrpmパッケージへ変更
 * ソースコード管理方式を改善し、ブランチ運用、テストの実施、テスト環境への適用のフローを整備
 * UnitTest/IntegrationTestを導入し、CI環境を構築、開発者の導入支援を実施。(Jenkins/Gitlab-CI/Docker)
 
 #### クラウドにおけるデータベースのオンラインアップグレード
 
-* MariaDBのバージョンを5.5系から10.2系にアップグレード
-* サービス無停止で実施
-* ほとんどの作業をscript化、リリース担当の負荷軽減
+* サブリーダーを担当(12人チーム)
+* MariaDB(Galera Cluster)のバージョンを5.5系から10.2系にアップグレード
+* バージョン間の非互換調査およびバージョンアップ検証を実施。バージョンアップ方法を複数検討、調査、検証。
+* IaaSサービス停止時間が伴うため、関連部署への説明、調整。
+* 他、Galera Clusterの仕組みを勉強会で共有、チーム内の知識向上に寄与。
+
