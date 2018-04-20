@@ -4,11 +4,11 @@
 
 |key|value|
 |---|-----|
-|Name|takeshe12|
-|Blog|[ツナワタリマイライフ](http://take-she12.hatenablog.com/)|
-|Twitter|[@take_she12](https://twitter.com/take_she12)|
-|Speakerdeck|[tk117](https://speakerdeck.com/tk117)|
-|Qiita|[tk117](https://qiita.com/tk117)|
+|Name|kondo takeshi|
+|Blog|[ツナワタリマイライフ](http://blog.chaspy.me/)|
+|Twitter|[@chaspy_](https://twitter.com/chaspy_)|
+|Speakerdeck|[chaspy](https://speakerdeck.com/chaspy)|
+|Qiita|[chaspy](https://qiita.com/chaspy)|
 
 ## スキル
 * オンプレミスクラウド導入経験およびインフラ知識
