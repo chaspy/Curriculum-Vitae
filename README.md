@@ -4,7 +4,7 @@
 
 |key|value|
 |---|-----|
-|Name|kondo takeshi|
+|Name|Takeshi Kondo|
 |Blog|[ツナワタリマイライフ](http://blog.chaspy.me/)|
 |Twitter|[@chaspy_](https://twitter.com/chaspy_)|
 |Speakerdeck|[chaspy](https://speakerdeck.com/chaspy)|
